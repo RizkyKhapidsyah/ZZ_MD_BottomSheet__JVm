@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ZZ_MD_BottomSheet__JVm</string>
+    <string name="B_Perluas_IDXML">Perluas</string>
+    <string name="B_Perkecil_IDXML">Perkecil</string>
+    <string name="TV_State_IDXML">State</string>
+    <string name="TV_BottomSheet_IDXML">Ini adalah BottomSheet Yang dapat digeser dari bawah ke atas dan juga sebaliknya.</string>
+</resources>

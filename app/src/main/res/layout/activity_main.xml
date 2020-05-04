@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/B_Perluas_IDXML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/B_Perluas_IDXML" />
+
+        <Button
+            android:id="@+id/B_Perkecil_IDXML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/B_Perkecil_IDXML" />
+
+        <TextView
+            android:id="@+id/TV_State_IDXML"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/TV_State_IDXML"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/NSV_BottomSheet_IDXML"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:background="@color/colorPrimary"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="55dp"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+        <TextView
+            android:id="@+id/TV_BottomSheet_IDXML"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:text="@string/TV_BottomSheet_IDXML" />
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
